@@ -43,6 +43,14 @@ async function getAddress(mnemonic: string, prefix: string = 'juno') {
     return accounts[0].address;
 }
 
+// CLI COMMANDS
+// tsc -v   #Version 4.9.3
+// cd node // -- npm test -- has to be run from the node directory 
+// npm install
+// npm ls typescript
+// npm i -D typescript ts-node
+// npm test
+
 describe("Messages Fullstack Test", () => {
     xit("Generate Wallet", async () => {
         let wallet = await Secp256k1HdWallet.generate(12);
@@ -79,18 +87,20 @@ describe("Messages Fullstack Test", () => {
         console.log(res);        
     }).timeout(100000);
 
-
-    xit("Send Testnet Tokens", async () => {
+    // This test does not work yet. Could be the testnet or not.
+    it("Send Testnet Tokens", async () => { 
         let client = await setupClient(mnemonic, rpcEndpoint, "0.025ujunox");
-        let receiver = "juno13nu6usqlcvsqn8g806d2prrtk5qdajrmts8s5a";
-        let res = await client.sendTokens(await getAddress(mnemonic), receiver, [{denom:"ujunox", amount:"1000005"}], "auto");
-        console.log(res);
+        let receiver = "juno1ac4ej6vg9najlvg5l7hyufkc83m3hlsvr9gyaw";
+        let res = await client.sendTokens(await getAddress(mnemonic), receiver, [{denom:"ujunox", amount:"100000"}], "auto");
+        console.log(res);    
     }).timeout(100000);
+
+    
 
     //same as
     //junod tx wasm store artifacts/messages.wasm --from wallet --node https://rpc.uni.juno.deuslabs.fi --chain_id=uni-3 --gas-price=0.025ujunox --gas auto
     xit("1. Upload code manager_wasm to testnet", async () => {
-        let client = await setupClient(mnemonic, rpcEndpoint, "1ujunox");
+        let client = await setupClient(mnemonic, rpcEndpoint, "0.025ujunox");
         let res = await client.upload(await getAddress(mnemonic), manager_wasm, "auto");
         console.log("manager_wasm: %s",JSON.stringify(res.logs[0].events));
     }).timeout(100000);
@@ -108,6 +118,7 @@ describe("Messages Fullstack Test", () => {
         let res = await client.instantiate(await getAddress(mnemonic), code_id_manager, { }, "messages", "auto");
         console.log(res);
     }).timeout(100000);
+
     // counter contract: juno1lfewu63ev862fmzkas02laj9hhxnt489pwzjn0adts7tg7m5h30s3f0dg6
     xit("4. Instantiate a counter contract from the manager contract - testnet", async() => {
         let client = await setupClient(mnemonic, rpcEndpoint, "0.025ujunox");
@@ -145,6 +156,10 @@ describe("Messages Fullstack Test", () => {
         );  // ExecuteMsg::Increment { contract: String }
         console.log(res);
 
+        // let res = await client.execute(    // ExecuteMsg: SENDING FUNDS
+        //     await getAddress(mnemonic), contract_manager_address, {increment : { contract: contract_counter_address}}, "auto", "", [{amount: "1000000", denom: "ujunox"}]
+        // );        
+
         for (let i = 0; i<res.logs[0].events.length; i++) {
             console.log("------------EVENTS[%s]-----------------",i);
             console.log(res.logs[0].events[i]);          
@@ -167,12 +182,10 @@ describe("Messages Fullstack Test", () => {
             await getAddress(mnemonic), contract_manager_address, {increment : { contract: contract_counter_address}}, "auto", "", []
         );  // ExecuteMsg::Increment { contract: String }
         console.log(res2);
-
-
      }).timeout(20000);
 
 
-     it("7. Query GetCount {} from counter contract", async() => {
+     xit("7. Query GetCount {} from counter contract", async() => {
         let client = await setupClient(mnemonic, rpcEndpoint, "0.025ujunox");
         let res = await client.queryContractSmart(contract_counter_address, { get_count: { } } );      // QueryMsg::GetCount {}
         console.log(res);
