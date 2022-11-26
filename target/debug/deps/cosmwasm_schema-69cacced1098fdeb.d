@@ -1,0 +1,11 @@
+/home/bmorkai/wba/week-3/manager-example-incomplete/target/debug/deps/cosmwasm_schema-69cacced1098fdeb.rmeta: /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/lib.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/casing.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/export.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/idl.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/query_response.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/remove.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/schema_for.rs
+
+/home/bmorkai/wba/week-3/manager-example-incomplete/target/debug/deps/cosmwasm_schema-69cacced1098fdeb.d: /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/lib.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/casing.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/export.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/idl.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/query_response.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/remove.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/schema_for.rs
+
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/lib.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/casing.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/export.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/idl.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/query_response.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/remove.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-1.1.8/src/schema_for.rs:

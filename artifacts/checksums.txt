@@ -1,0 +1,2 @@
+c332ee9cb628d7fd926564ec44b24e9cbf2c196a39bba825f762ef2b8fa8bcdf  counter.wasm
+7d6756dbc9088092e778d1f1c4bd0bb4addf913af5576a85ccef91e730f50b97  manager.wasm

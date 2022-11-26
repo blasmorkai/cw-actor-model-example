@@ -1,0 +1,2 @@
+503a692f0e479e338dfd5211df849126b98d45998ddfddc4def2826abd4380ad  target/wasm32-unknown-unknown/release/counter.wasm
+74bf279e415e9702667d8ae06ede1d7b7ef2300a509d1ef65ef2fc68f231ea5d  target/wasm32-unknown-unknown/release/manager.wasm

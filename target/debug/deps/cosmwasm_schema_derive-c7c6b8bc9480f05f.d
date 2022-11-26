@@ -1,0 +1,9 @@
+/home/bmorkai/wba/week-3/manager-example-incomplete/target/debug/deps/libcosmwasm_schema_derive-c7c6b8bc9480f05f.so: /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/lib.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/cw_serde.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/generate_api.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses/context.rs
+
+/home/bmorkai/wba/week-3/manager-example-incomplete/target/debug/deps/cosmwasm_schema_derive-c7c6b8bc9480f05f.d: /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/lib.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/cw_serde.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/generate_api.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses.rs /home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses/context.rs
+
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/lib.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/cw_serde.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/generate_api.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses.rs:
+/home/bmorkai/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-derive-1.1.8/src/query_responses/context.rs:
