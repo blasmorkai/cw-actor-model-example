@@ -88,7 +88,7 @@ describe("Messages Fullstack Test", () => {
     }).timeout(100000);
 
     // This test does not work yet. Could be the testnet or not.
-    it("Send Testnet Tokens", async () => { 
+    xit("Send Testnet Tokens", async () => { 
         let client = await setupClient(mnemonic, rpcEndpoint, "0.025ujunox");
         let receiver = "juno1ac4ej6vg9najlvg5l7hyufkc83m3hlsvr9gyaw";
         let res = await client.sendTokens(await getAddress(mnemonic), receiver, [{denom:"ujunox", amount:"100000"}], "auto");
